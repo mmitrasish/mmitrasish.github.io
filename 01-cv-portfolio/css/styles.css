@@ -192,6 +192,12 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
+
+.subheading .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.subheading .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+
 	
 
 /* ---------------------------------
